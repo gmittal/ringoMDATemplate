@@ -7,48 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7A853691B4F2DDE0074AC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A853681B4F2DDE0074AC91 /* AppDelegate.swift */; };
-		C7A8536B1B4F2DDE0074AC91 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A8536A1B4F2DDE0074AC91 /* MasterViewController.swift */; };
-		C7A8536D1B4F2DDE0074AC91 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A8536C1B4F2DDE0074AC91 /* DetailViewController.swift */; };
-		C7A853701B4F2DDF0074AC91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A8536E1B4F2DDF0074AC91 /* Main.storyboard */; };
-		C7A853721B4F2DDF0074AC91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A853711B4F2DDF0074AC91 /* Images.xcassets */; };
-		C7A853751B4F2DDF0074AC91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A853731B4F2DDF0074AC91 /* LaunchScreen.xib */; };
-		C7A853811B4F2DDF0074AC91 /* ringoMDATemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A853801B4F2DDF0074AC91 /* ringoMDATemplateTests.swift */; };
+		C7A9A47D1BD16BEB00AC6227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9A47C1BD16BEB00AC6227 /* AppDelegate.swift */; };
+		C7A9A47F1BD16BEB00AC6227 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9A47E1BD16BEB00AC6227 /* MasterViewController.swift */; };
+		C7A9A4811BD16BEB00AC6227 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9A4801BD16BEB00AC6227 /* DetailViewController.swift */; };
+		C7A9A4841BD16BEB00AC6227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A9A4821BD16BEB00AC6227 /* Main.storyboard */; };
+		C7A9A4861BD16BEB00AC6227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A9A4851BD16BEB00AC6227 /* Assets.xcassets */; };
+		C7A9A4891BD16BEB00AC6227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A9A4871BD16BEB00AC6227 /* LaunchScreen.storyboard */; };
+		C7A9A4941BD16BEB00AC6227 /* ringoMDATemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9A4931BD16BEB00AC6227 /* ringoMDATemplateTests.swift */; };
+		C7A9A49F1BD16BEC00AC6227 /* ringoMDATemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9A49E1BD16BEC00AC6227 /* ringoMDATemplateUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C7A8537B1B4F2DDF0074AC91 /* PBXContainerItemProxy */ = {
+		C7A9A4901BD16BEB00AC6227 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C7A8535B1B4F2DDE0074AC91 /* Project object */;
+			containerPortal = C7A9A4711BD16BEB00AC6227 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C7A853621B4F2DDE0074AC91;
+			remoteGlobalIDString = C7A9A4781BD16BEB00AC6227;
+			remoteInfo = ringoMDATemplate;
+		};
+		C7A9A49B1BD16BEC00AC6227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A9A4711BD16BEB00AC6227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A9A4781BD16BEB00AC6227;
 			remoteInfo = ringoMDATemplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7A853631B4F2DDE0074AC91 /* ringoMDATemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringoMDATemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7A853671B4F2DDE0074AC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7A853681B4F2DDE0074AC91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7A8536A1B4F2DDE0074AC91 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		C7A8536C1B4F2DDE0074AC91 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		C7A8536F1B4F2DDF0074AC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C7A853711B4F2DDF0074AC91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C7A853741B4F2DDF0074AC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C7A8537A1B4F2DDF0074AC91 /* ringoMDATemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoMDATemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7A8537F1B4F2DDF0074AC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7A853801B4F2DDF0074AC91 /* ringoMDATemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoMDATemplateTests.swift; sourceTree = "<group>"; };
+		C7A9A4791BD16BEB00AC6227 /* ringoMDATemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringoMDATemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A9A47C1BD16BEB00AC6227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7A9A47E1BD16BEB00AC6227 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C7A9A4801BD16BEB00AC6227 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C7A9A4831BD16BEB00AC6227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7A9A4851BD16BEB00AC6227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7A9A4881BD16BEB00AC6227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7A9A48A1BD16BEB00AC6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A9A48F1BD16BEB00AC6227 /* ringoMDATemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoMDATemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A9A4931BD16BEB00AC6227 /* ringoMDATemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoMDATemplateTests.swift; sourceTree = "<group>"; };
+		C7A9A4951BD16BEB00AC6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A9A49A1BD16BEC00AC6227 /* ringoMDATemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoMDATemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A9A49E1BD16BEC00AC6227 /* ringoMDATemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoMDATemplateUITests.swift; sourceTree = "<group>"; };
+		C7A9A4A01BD16BEC00AC6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C7A853601B4F2DDE0074AC91 /* Frameworks */ = {
+		C7A9A4761BD16BEB00AC6227 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7A853771B4F2DDF0074AC91 /* Frameworks */ = {
+		C7A9A48C1BD16BEB00AC6227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9A4971BD16BEC00AC6227 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,73 +76,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C7A8535A1B4F2DDE0074AC91 = {
+		C7A9A4701BD16BEB00AC6227 = {
 			isa = PBXGroup;
 			children = (
-				C7A853651B4F2DDE0074AC91 /* ringoMDATemplate */,
-				C7A8537D1B4F2DDF0074AC91 /* ringoMDATemplateTests */,
-				C7A853641B4F2DDE0074AC91 /* Products */,
+				C7A9A47B1BD16BEB00AC6227 /* ringoMDATemplate */,
+				C7A9A4921BD16BEB00AC6227 /* ringoMDATemplateTests */,
+				C7A9A49D1BD16BEC00AC6227 /* ringoMDATemplateUITests */,
+				C7A9A47A1BD16BEB00AC6227 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C7A853641B4F2DDE0074AC91 /* Products */ = {
+		C7A9A47A1BD16BEB00AC6227 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7A853631B4F2DDE0074AC91 /* ringoMDATemplate.app */,
-				C7A8537A1B4F2DDF0074AC91 /* ringoMDATemplateTests.xctest */,
+				C7A9A4791BD16BEB00AC6227 /* ringoMDATemplate.app */,
+				C7A9A48F1BD16BEB00AC6227 /* ringoMDATemplateTests.xctest */,
+				C7A9A49A1BD16BEC00AC6227 /* ringoMDATemplateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7A853651B4F2DDE0074AC91 /* ringoMDATemplate */ = {
+		C7A9A47B1BD16BEB00AC6227 /* ringoMDATemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C7A853681B4F2DDE0074AC91 /* AppDelegate.swift */,
-				C7A8536A1B4F2DDE0074AC91 /* MasterViewController.swift */,
-				C7A8536C1B4F2DDE0074AC91 /* DetailViewController.swift */,
-				C7A8536E1B4F2DDF0074AC91 /* Main.storyboard */,
-				C7A853711B4F2DDF0074AC91 /* Images.xcassets */,
-				C7A853731B4F2DDF0074AC91 /* LaunchScreen.xib */,
-				C7A853661B4F2DDE0074AC91 /* Supporting Files */,
+				C7A9A47C1BD16BEB00AC6227 /* AppDelegate.swift */,
+				C7A9A47E1BD16BEB00AC6227 /* MasterViewController.swift */,
+				C7A9A4801BD16BEB00AC6227 /* DetailViewController.swift */,
+				C7A9A4821BD16BEB00AC6227 /* Main.storyboard */,
+				C7A9A4851BD16BEB00AC6227 /* Assets.xcassets */,
+				C7A9A4871BD16BEB00AC6227 /* LaunchScreen.storyboard */,
+				C7A9A48A1BD16BEB00AC6227 /* Info.plist */,
 			);
 			path = ringoMDATemplate;
 			sourceTree = "<group>";
 		};
-		C7A853661B4F2DDE0074AC91 /* Supporting Files */ = {
+		C7A9A4921BD16BEB00AC6227 /* ringoMDATemplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7A853671B4F2DDE0074AC91 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C7A8537D1B4F2DDF0074AC91 /* ringoMDATemplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				C7A853801B4F2DDF0074AC91 /* ringoMDATemplateTests.swift */,
-				C7A8537E1B4F2DDF0074AC91 /* Supporting Files */,
+				C7A9A4931BD16BEB00AC6227 /* ringoMDATemplateTests.swift */,
+				C7A9A4951BD16BEB00AC6227 /* Info.plist */,
 			);
 			path = ringoMDATemplateTests;
 			sourceTree = "<group>";
 		};
-		C7A8537E1B4F2DDF0074AC91 /* Supporting Files */ = {
+		C7A9A49D1BD16BEC00AC6227 /* ringoMDATemplateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C7A8537F1B4F2DDF0074AC91 /* Info.plist */,
+				C7A9A49E1BD16BEC00AC6227 /* ringoMDATemplateUITests.swift */,
+				C7A9A4A01BD16BEC00AC6227 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = ringoMDATemplateUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7A853621B4F2DDE0074AC91 /* ringoMDATemplate */ = {
+		C7A9A4781BD16BEB00AC6227 /* ringoMDATemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7A853841B4F2DDF0074AC91 /* Build configuration list for PBXNativeTarget "ringoMDATemplate" */;
+			buildConfigurationList = C7A9A4A31BD16BEC00AC6227 /* Build configuration list for PBXNativeTarget "ringoMDATemplate" */;
 			buildPhases = (
-				C7A8535F1B4F2DDE0074AC91 /* Sources */,
-				C7A853601B4F2DDE0074AC91 /* Frameworks */,
-				C7A853611B4F2DDE0074AC91 /* Resources */,
+				C7A9A4751BD16BEB00AC6227 /* Sources */,
+				C7A9A4761BD16BEB00AC6227 /* Frameworks */,
+				C7A9A4771BD16BEB00AC6227 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +145,68 @@
 			);
 			name = ringoMDATemplate;
 			productName = ringoMDATemplate;
-			productReference = C7A853631B4F2DDE0074AC91 /* ringoMDATemplate.app */;
+			productReference = C7A9A4791BD16BEB00AC6227 /* ringoMDATemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C7A853791B4F2DDF0074AC91 /* ringoMDATemplateTests */ = {
+		C7A9A48E1BD16BEB00AC6227 /* ringoMDATemplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7A853871B4F2DDF0074AC91 /* Build configuration list for PBXNativeTarget "ringoMDATemplateTests" */;
+			buildConfigurationList = C7A9A4A61BD16BEC00AC6227 /* Build configuration list for PBXNativeTarget "ringoMDATemplateTests" */;
 			buildPhases = (
-				C7A853761B4F2DDF0074AC91 /* Sources */,
-				C7A853771B4F2DDF0074AC91 /* Frameworks */,
-				C7A853781B4F2DDF0074AC91 /* Resources */,
+				C7A9A48B1BD16BEB00AC6227 /* Sources */,
+				C7A9A48C1BD16BEB00AC6227 /* Frameworks */,
+				C7A9A48D1BD16BEB00AC6227 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C7A8537C1B4F2DDF0074AC91 /* PBXTargetDependency */,
+				C7A9A4911BD16BEB00AC6227 /* PBXTargetDependency */,
 			);
 			name = ringoMDATemplateTests;
 			productName = ringoMDATemplateTests;
-			productReference = C7A8537A1B4F2DDF0074AC91 /* ringoMDATemplateTests.xctest */;
+			productReference = C7A9A48F1BD16BEB00AC6227 /* ringoMDATemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7A9A4991BD16BEC00AC6227 /* ringoMDATemplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A9A4A91BD16BEC00AC6227 /* Build configuration list for PBXNativeTarget "ringoMDATemplateUITests" */;
+			buildPhases = (
+				C7A9A4961BD16BEC00AC6227 /* Sources */,
+				C7A9A4971BD16BEC00AC6227 /* Frameworks */,
+				C7A9A4981BD16BEC00AC6227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A9A49C1BD16BEC00AC6227 /* PBXTargetDependency */,
+			);
+			name = ringoMDATemplateUITests;
+			productName = ringoMDATemplateUITests;
+			productReference = C7A9A49A1BD16BEC00AC6227 /* ringoMDATemplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C7A8535B1B4F2DDE0074AC91 /* Project object */ = {
+		C7A9A4711BD16BEB00AC6227 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Ringo;
 				TargetAttributes = {
-					C7A853621B4F2DDE0074AC91 = {
-						CreatedOnToolsVersion = 6.4;
+					C7A9A4781BD16BEB00AC6227 = {
+						CreatedOnToolsVersion = 7.0.1;
 					};
-					C7A853791B4F2DDF0074AC91 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = C7A853621B4F2DDE0074AC91;
+					C7A9A48E1BD16BEB00AC6227 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C7A9A4781BD16BEB00AC6227;
+					};
+					C7A9A4991BD16BEC00AC6227 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C7A9A4781BD16BEB00AC6227;
 					};
 				};
 			};
-			buildConfigurationList = C7A8535E1B4F2DDE0074AC91 /* Build configuration list for PBXProject "ringoMDATemplate" */;
+			buildConfigurationList = C7A9A4741BD16BEB00AC6227 /* Build configuration list for PBXProject "ringoMDATemplate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C7A8535A1B4F2DDE0074AC91;
-			productRefGroup = C7A853641B4F2DDE0074AC91 /* Products */;
+			mainGroup = C7A9A4701BD16BEB00AC6227;
+			productRefGroup = C7A9A47A1BD16BEB00AC6227 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7A853621B4F2DDE0074AC91 /* ringoMDATemplate */,
-				C7A853791B4F2DDF0074AC91 /* ringoMDATemplateTests */,
+				C7A9A4781BD16BEB00AC6227 /* ringoMDATemplate */,
+				C7A9A48E1BD16BEB00AC6227 /* ringoMDATemplateTests */,
+				C7A9A4991BD16BEC00AC6227 /* ringoMDATemplateUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C7A853611B4F2DDE0074AC91 /* Resources */ = {
+		C7A9A4771BD16BEB00AC6227 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A853701B4F2DDF0074AC91 /* Main.storyboard in Resources */,
-				C7A853751B4F2DDF0074AC91 /* LaunchScreen.xib in Resources */,
-				C7A853721B4F2DDF0074AC91 /* Images.xcassets in Resources */,
+				C7A9A4891BD16BEB00AC6227 /* LaunchScreen.storyboard in Resources */,
+				C7A9A4861BD16BEB00AC6227 /* Assets.xcassets in Resources */,
+				C7A9A4841BD16BEB00AC6227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7A853781B4F2DDF0074AC91 /* Resources */ = {
+		C7A9A48D1BD16BEB00AC6227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9A4981BD16BEC00AC6227 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,55 +254,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C7A8535F1B4F2DDE0074AC91 /* Sources */ = {
+		C7A9A4751BD16BEB00AC6227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A8536D1B4F2DDE0074AC91 /* DetailViewController.swift in Sources */,
-				C7A8536B1B4F2DDE0074AC91 /* MasterViewController.swift in Sources */,
-				C7A853691B4F2DDE0074AC91 /* AppDelegate.swift in Sources */,
+				C7A9A4811BD16BEB00AC6227 /* DetailViewController.swift in Sources */,
+				C7A9A47F1BD16BEB00AC6227 /* MasterViewController.swift in Sources */,
+				C7A9A47D1BD16BEB00AC6227 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7A853761B4F2DDF0074AC91 /* Sources */ = {
+		C7A9A48B1BD16BEB00AC6227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A853811B4F2DDF0074AC91 /* ringoMDATemplateTests.swift in Sources */,
+				C7A9A4941BD16BEB00AC6227 /* ringoMDATemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9A4961BD16BEC00AC6227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A9A49F1BD16BEC00AC6227 /* ringoMDATemplateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C7A8537C1B4F2DDF0074AC91 /* PBXTargetDependency */ = {
+		C7A9A4911BD16BEB00AC6227 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C7A853621B4F2DDE0074AC91 /* ringoMDATemplate */;
-			targetProxy = C7A8537B1B4F2DDF0074AC91 /* PBXContainerItemProxy */;
+			target = C7A9A4781BD16BEB00AC6227 /* ringoMDATemplate */;
+			targetProxy = C7A9A4901BD16BEB00AC6227 /* PBXContainerItemProxy */;
+		};
+		C7A9A49C1BD16BEC00AC6227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A9A4781BD16BEB00AC6227 /* ringoMDATemplate */;
+			targetProxy = C7A9A49B1BD16BEC00AC6227 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C7A8536E1B4F2DDF0074AC91 /* Main.storyboard */ = {
+		C7A9A4821BD16BEB00AC6227 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C7A8536F1B4F2DDF0074AC91 /* Base */,
+				C7A9A4831BD16BEB00AC6227 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C7A853731B4F2DDF0074AC91 /* LaunchScreen.xib */ = {
+		C7A9A4871BD16BEB00AC6227 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C7A853741B4F2DDF0074AC91 /* Base */,
+				C7A9A4881BD16BEB00AC6227 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C7A853821B4F2DDF0074AC91 /* Debug */ = {
+		C7A9A4A11BD16BEC00AC6227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,8 +334,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -288,14 +345,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -303,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		C7A853831B4F2DDF0074AC91 /* Release */ = {
+		C7A9A4A21BD16BEC00AC6227 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,96 +389,120 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C7A853851B4F2DDF0074AC91 /* Debug */ = {
+		C7A9A4A41BD16BEC00AC6227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ringoMDATemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoMDATemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C7A853861B4F2DDF0074AC91 /* Release */ = {
+		C7A9A4A51BD16BEC00AC6227 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ringoMDATemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoMDATemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		C7A853881B4F2DDF0074AC91 /* Debug */ = {
+		C7A9A4A71BD16BEC00AC6227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = ringoMDATemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoMDATemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoMDATemplate.app/ringoMDATemplate";
 			};
 			name = Debug;
 		};
-		C7A853891B4F2DDF0074AC91 /* Release */ = {
+		C7A9A4A81BD16BEC00AC6227 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = ringoMDATemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoMDATemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoMDATemplate.app/ringoMDATemplate";
+			};
+			name = Release;
+		};
+		C7A9A4AA1BD16BEC00AC6227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ringoMDATemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoMDATemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ringoMDATemplate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C7A9A4AB1BD16BEC00AC6227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ringoMDATemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoMDATemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ringoMDATemplate;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7A8535E1B4F2DDE0074AC91 /* Build configuration list for PBXProject "ringoMDATemplate" */ = {
+		C7A9A4741BD16BEB00AC6227 /* Build configuration list for PBXProject "ringoMDATemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7A853821B4F2DDF0074AC91 /* Debug */,
-				C7A853831B4F2DDF0074AC91 /* Release */,
+				C7A9A4A11BD16BEC00AC6227 /* Debug */,
+				C7A9A4A21BD16BEC00AC6227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7A853841B4F2DDF0074AC91 /* Build configuration list for PBXNativeTarget "ringoMDATemplate" */ = {
+		C7A9A4A31BD16BEC00AC6227 /* Build configuration list for PBXNativeTarget "ringoMDATemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7A853851B4F2DDF0074AC91 /* Debug */,
-				C7A853861B4F2DDF0074AC91 /* Release */,
+				C7A9A4A41BD16BEC00AC6227 /* Debug */,
+				C7A9A4A51BD16BEC00AC6227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C7A853871B4F2DDF0074AC91 /* Build configuration list for PBXNativeTarget "ringoMDATemplateTests" */ = {
+		C7A9A4A61BD16BEC00AC6227 /* Build configuration list for PBXNativeTarget "ringoMDATemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7A853881B4F2DDF0074AC91 /* Debug */,
-				C7A853891B4F2DDF0074AC91 /* Release */,
+				C7A9A4A71BD16BEC00AC6227 /* Debug */,
+				C7A9A4A81BD16BEC00AC6227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7A9A4A91BD16BEC00AC6227 /* Build configuration list for PBXNativeTarget "ringoMDATemplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A9A4AA1BD16BEC00AC6227 /* Debug */,
+				C7A9A4AB1BD16BEC00AC6227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C7A8535B1B4F2DDE0074AC91 /* Project object */;
+	rootObject = C7A9A4711BD16BEB00AC6227 /* Project object */;
 }

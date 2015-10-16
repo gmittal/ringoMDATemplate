@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0640"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,41 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7A853621B4F2DDE0074AC91"
+               BlueprintIdentifier = "C7A9A4781BD16BEB00AC6227"
                BuildableName = "ringoMDATemplate.app"
                BlueprintName = "ringoMDATemplate"
-               ReferencedContainer = "container:ringoMDATemplate.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7A853791B4F2DDF0074AC91"
-               BuildableName = "ringoMDATemplateTests.xctest"
-               BlueprintName = "ringoMDATemplateTests"
                ReferencedContainer = "container:ringoMDATemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7A853791B4F2DDF0074AC91"
+               BlueprintIdentifier = "C7A9A48E1BD16BEB00AC6227"
                BuildableName = "ringoMDATemplateTests.xctest"
                BlueprintName = "ringoMDATemplateTests"
+               ReferencedContainer = "container:ringoMDATemplate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C7A9A4991BD16BEC00AC6227"
+               BuildableName = "ringoMDATemplateUITests.xctest"
+               BlueprintName = "ringoMDATemplateUITests"
                ReferencedContainer = "container:ringoMDATemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,27 +52,30 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7A853621B4F2DDE0074AC91"
+            BlueprintIdentifier = "C7A9A4781BD16BEB00AC6227"
             BuildableName = "ringoMDATemplate.app"
             BlueprintName = "ringoMDATemplate"
             ReferencedContainer = "container:ringoMDATemplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7A853621B4F2DDE0074AC91"
+            BlueprintIdentifier = "C7A9A4781BD16BEB00AC6227"
             BuildableName = "ringoMDATemplate.app"
             BlueprintName = "ringoMDATemplate"
             ReferencedContainer = "container:ringoMDATemplate.xcodeproj">
@@ -86,16 +85,16 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7A853621B4F2DDE0074AC91"
+            BlueprintIdentifier = "C7A9A4781BD16BEB00AC6227"
             BuildableName = "ringoMDATemplate.app"
             BlueprintName = "ringoMDATemplate"
             ReferencedContainer = "container:ringoMDATemplate.xcodeproj">

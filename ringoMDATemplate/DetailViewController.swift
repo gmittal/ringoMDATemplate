@@ -3,8 +3,6 @@
 //  ringoMDATemplate
 //
 
-//  Copyright (c) 2015 Ringo. All rights reserved.
-//
 
 import UIKit
 
@@ -22,7 +20,7 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail: AnyObject = self.detailItem {
+        if let detail = self.detailItem {
             if let label = self.detailDescriptionLabel {
                 label.text = detail.description
             }
